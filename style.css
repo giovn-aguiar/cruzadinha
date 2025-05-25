@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    top: 20px;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.titulo {
+    color: rebeccapurple;
+    padding: 40px;
+}
+
+.container {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5e6ff;
+    background-image: none;
+}
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.cruzada-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 85%;
+}
+
+.cruzada-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    height: 92%;
+}
+
+.cruzada-item table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.cruzada-item table tr td {
+    font-weight: bold;
+    font-size: 26px;
+    border: 1px solid #222;
+    padding: 12px;
+    background-color: #fff;
+    color: #fff;
+}
+
+#divMensagem {
+    font-size: 36px;
+    color: rebeccapurple;
+}
+
+#vazio {
+    border: none;
+    background-color: transparent;
+}
+
+#palavrasGeral {
+    background: #6a0dad;
+    color: #fff;
+}
+
+#cruza {
+    text-align: center;
+    width: 28%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+    color: #f2e6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28vh;
+    width: 100%;
+    background-color: #6a0dad;
+    margin-top: 80px;
+}
+
+.formulario input {
+    outline: none;
+    width: 220px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 8%;
+    border: 2px solid #333;
+}
+
+.formulario button {
+    width: 12%;
+    border-radius: 8px;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-left: 1%;
+    background-color: rgba(80, 0, 120, 0.85);
+    color: white;
+    cursor: pointer;
+}
